@@ -25,6 +25,10 @@
     background-color: #54a654;
 }
 
+.bg-verdeclaro {
+    background-color: #8eb98e;
+}
+
 /*IMAGEN DE BACKGROUND*/
 
 .bg-img-container {
@@ -209,7 +213,6 @@
     font-family: "fredoka", sans-serif;
     font-size: 1.5rem;
     color: #994040;
-    background-color: #14141450;
     border-radius: 0.5rem;
 }
 
@@ -307,7 +310,6 @@
         font-family: "fredoka", sans-serif;
         font-size: 1.5rem;
         color: #994040;
-        background-color: #14141450;
         border-radius: 0.5rem;
     }
     
@@ -427,7 +429,6 @@
         font-family: "fredoka", sans-serif;
         font-size: 1.5rem;
         color: #994040;
-        background-color: #14141450;
         border-radius: 0.5rem;
     }
     
