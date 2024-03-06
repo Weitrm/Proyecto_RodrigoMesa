@@ -1,0 +1,131 @@
+.bg-img-productos {
+    background-image: url(../img/background-productos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.style-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.style-productos h1 {
+    font-size: 3rem;
+    font-family: "fredoka", sans-serif;
+    color: #dbd691;
+    background-color: #14141462;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.style-productos p {
+    color: #141414;
+    background-color: #977272bd;
+    border-radius: 2rem;
+    font-family: "fredoka", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+/*Subtitulo cards*/
+.subtitulo-cortes {
+    background-color: #14141462;
+    border-radius: 2rem;
+}
+.subtitulo-cortes h2{
+    text-align: center;
+    color: #dbd691;
+    margin: 0 0 1rem 0;
+}
+/*Manual cortes*/
+.subtitulo-manual {
+    background-color: #14141462;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+.subtitulo-manual h2{
+    text-align: center;
+    color: #dbd691;
+}
+
+/*CARDS*/
+.card-section {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.card-size {
+    min-width: 20%;
+    max-width: 100%;
+    align-items: center;
+}
+
+.card-size img {
+    min-width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /*TAMAÑO MANUAL DE CORTES EN SECCION PRODUCTOS*/
+    .cortes {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 2rem 0;
+        gap: 1rem;
+    }
+    .size-cortes {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .fs-lg-2 {
+      font-size: 1.5rem;
+    }
+
+    /*---------ESTILOS SECCION PRODUCTOS------*/
+    .style-productos p {
+        color: #141414;
+        font-size: 1.8rem;
+        background-color: #977272bd;
+        border-radius: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .style-productos h1 {
+        font-size: 4rem;
+        color: #dbd691;
+        background-color: #14141462;
+        border-radius: 2rem;
+        overflow: hidden;
+    }
+
+    /*TAMAÑOS CARDS*/
+
+    .card-size {
+        max-width: 100%;
+        width: 20%;
+    }
+    .card-size img {
+        width: 100%;
+    }
+
+    /*TAMAÑO MANUAL DE CORTES EN SECCION PRODUCTOS*/
+    .cortes {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 2rem 0;
+        gap: 1rem;
+    }
+    .size-cortes {
+        max-width: 50%;
+    }
+
+}

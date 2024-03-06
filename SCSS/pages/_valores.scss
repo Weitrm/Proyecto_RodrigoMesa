@@ -1,0 +1,80 @@
+/*------------------ESTILO PAGINA VALORES----------------------*/
+
+
+.titulo-valores {
+    margin-bottom: 3rem;
+    border: rgb(153, 78, 34) 3px solid;
+    border-radius: 1rem;
+    background-color: beige;
+}
+
+.titulo-valores h1 {
+    font-size: 4rem;
+}
+/*SECTION VALORES*/
+
+.section-valores div {
+    border: rgb(153, 78, 34) 3px solid;
+    border-radius: 1rem;
+    background-color: beige;
+    margin: 2px;
+}
+
+.section-valores h2 {
+    font-size: 2.5rem;
+    font-family: "fredoka", sans-serif;
+
+}
+.section-valores p {
+    font-size: 1.2rem;
+    font-family: "fredoka", sans-serif;
+    padding: 1rem;
+}
+
+/*ARTICLE VALORES*/
+
+.article-valores {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.article-valores div {
+    margin: 1rem;
+}
+.article-valores img {
+    width: 20rem;
+    max-width: 100%;
+    border: rgb(153, 78, 34) 3px solid;
+    border-radius: 100%;
+}
+
+.article-valores h3 {
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+    /*------ESTILOS PAGINA VALORES------*/
+
+    .article-valores {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    /*------ESTILOS PAGINA VALORES------*/
+
+    .article-valores {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+}

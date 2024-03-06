@@ -1,0 +1,55 @@
+$bg-rojoclaro: #d76d66;
+
+$bg-rojooscuro: #994040;
+
+$bg-beige: #fff8dc;
+
+$bg-grisclaro: #ffffffa4;
+
+$bg-celeste: #3ab5b5;
+
+$bg-verde: #54a654;
+
+$bg-verdeclaro: #8eb98e;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg-rojoclaro {
+    background-color: $bg-rojoclaro;
+}
+
+.bg-rojooscuro {
+    background-color: $bg-rojooscuro;
+}
+
+.bg-beige {
+    background-color: $bg-beige;
+}
+
+.bg-grisclaro {
+    background-color: $bg-grisclaro;
+}
+
+.bg-celeste {
+    background-color: $bg-celeste;
+}
+
+.bg-verde {
+    background-color: $bg-verde;
+}
+
+.bg-verdeclaro {
+    background-color: $bg-verdeclaro;
+}
+
+
+
+
