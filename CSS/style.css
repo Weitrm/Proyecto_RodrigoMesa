@@ -37,6 +37,7 @@ img {
   background-color: #8eb98e;
 }
 
+/* Media querie TABLET*/
 .bg-img-contacto {
   background-image: url(../img/vaca-pastando.avif);
   background-size: cover;
@@ -84,6 +85,36 @@ img {
   border-radius: 1rem;
   box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-ganado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #8eb98e;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding: 3rem;
+    gap: 2rem;
+    border: black 2px solid;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+  }
+}
+@media (min-width: 992px) {
+  .section-ganado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #8eb98e;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding: 3rem;
+    gap: 2rem;
+    border: black 2px solid;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+  }
+}
 
 .titulo-ganado {
   text-align: center;
@@ -105,12 +136,46 @@ img {
   color: #994040;
   border-radius: 0.5rem;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-ganado h3 {
+    text-align: center;
+    font-family: "fredoka", sans-serif;
+    font-size: 1.5rem;
+    color: #994040;
+    border-radius: 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .section-ganado h3 {
+    text-align: center;
+    font-family: "fredoka", sans-serif;
+    font-size: 1.5rem;
+    color: #994040;
+    border-radius: 0.5rem;
+  }
+}
 
 .section-ganado img {
   max-width: 100%;
   border-radius: 0.5rem;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
   border: black 2px solid;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-ganado img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
+    border: black 2px solid;
+  }
+}
+@media (min-width: 992px) {
+  .section-ganado img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
+    border: black 2px solid;
+  }
 }
 
 .section-ganado p {
@@ -124,6 +189,31 @@ img {
   border-radius: 0.5rem;
   padding: 0.4rem;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-ganado p {
+    max-width: 100%;
+    text-align: center;
+    font-family: "fredoka", sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+    background-color: rgba(20, 20, 20, 0.3137254902);
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+  }
+}
+@media (min-width: 992px) {
+  .section-ganado p {
+    max-width: 100%;
+    text-align: center;
+    font-family: "fredoka", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    background-color: rgba(20, 20, 20, 0.3137254902);
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+  }
+}
 
 .section-cuidados {
   display: flex;
@@ -134,6 +224,12 @@ img {
   border: black 2px solid;
   border-radius: 0.5rem;
   box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+}
+@media (min-width: 992px) {
+  .section-cuidados {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .section-cuidados h2 {
@@ -157,95 +253,16 @@ img {
   border-radius: 0.5rem;
   padding: 0.4rem;
 }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /*-----------------ESTILOS PAGINA GANADO------------------*/
-  .section-ganado {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #8eb98e;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    padding: 3rem;
-    gap: 2rem;
-    border: black 2px solid;
-    border-radius: 1rem;
-    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
-  }
-  .section-ganado h3 {
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-size: 1.5rem;
-    color: #994040;
-    border-radius: 0.5rem;
-  }
-  .section-ganado img {
-    max-width: 100%;
-    border-radius: 0.5rem;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
-    border: black 2px solid;
-  }
-  .section-ganado p {
-    max-width: 100%;
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-weight: 600;
-    margin-top: 1rem;
-    background-color: rgba(20, 20, 20, 0.3137254902);
-    border-radius: 0.5rem;
-    padding: 0.4rem;
-  }
-  .text-tablet {
-    display: block;
-  }
-}
 @media (min-width: 992px) {
-  /*------------ESTILOS PAGINA GANADO---------*/
-  .section-ganado {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #8eb98e;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    padding: 3rem;
-    gap: 2rem;
-    border: black 2px solid;
-    border-radius: 1rem;
-    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
-  }
-  .section-ganado h3 {
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-size: 1.5rem;
-    color: #994040;
-    border-radius: 0.5rem;
-  }
-  .section-ganado img {
-    max-width: 100%;
-    border-radius: 0.5rem;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
-    border: black 2px solid;
-  }
-  .section-ganado p {
-    max-width: 100%;
-    text-align: center;
-    font-family: "fredoka", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 1rem;
-    background-color: rgba(20, 20, 20, 0.3137254902);
-    border-radius: 0.5rem;
-    padding: 0.4rem;
-  }
-  /*ESTILOS CUIDADOS*/
-  .section-cuidados {
-    display: flex;
-    flex-direction: row;
-  }
   .section-cuidados p {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*-----------------Texto sección cuidados ------------------*/
+  .text-tablet {
+    display: block;
   }
 }
 /*ESTILOS*/
