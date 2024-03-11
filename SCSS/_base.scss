@@ -1,3 +1,15 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*BG COLORES*/
 $bg-rojoclaro: #d76d66;
 
 $bg-rojooscuro: #994040;
@@ -13,16 +25,31 @@ $bg-verde: #54a654;
 $bg-verdeclaro: #8eb98e;
 
 
+/*TIPOGRAFIA*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+$tipografia-fredoka: "fredoka", sans-serif;
+
+/*SOMBRA BASICA CAJA*/
+
+$box-shadow: 6px 6px 6px;
+
+
+/* Media querie TABLET*/
+
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 991px) {
+        @content
+    }
+} 
+
+/* Media querie DESKTOP */
+
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content
+    }
 }
 
-img {
-    max-width: 100%;
-}
 
 .bg-rojoclaro {
     background-color: $bg-rojoclaro;
@@ -53,21 +80,4 @@ img {
 }
 
 
-
-
-/* Media querie TABLET*/
-
-@mixin tablet {
-    @media (min-width: 768px) and (max-width: 991px) {
-        @content
-    }
-} 
-
-/* Media querie DESKTOP */
-
-@mixin desktop {
-    @media (min-width: 992px) {
-        @content
-    }
-}
 

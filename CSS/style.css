@@ -9,6 +9,11 @@ img {
   max-width: 100%;
 }
 
+/*BG COLORES*/
+/*TIPOGRAFIA*/
+/*SOMBRA BASICA CAJA*/
+/* Media querie TABLET*/
+/* Media querie DESKTOP */
 .bg-rojoclaro {
   background-color: #d76d66;
 }
@@ -37,8 +42,6 @@ img {
   background-color: #8eb98e;
 }
 
-/* Media querie TABLET*/
-/* Media querie DESKTOP */
 .bg-img-contacto {
   background-image: url(../img/vaca-pastando.avif);
   background-size: cover;
@@ -84,7 +87,7 @@ img {
   gap: 2rem;
   border: black 2px solid;
   border-radius: 1rem;
-  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+  box-shadow: 6px 6px 6px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-ganado {
@@ -98,7 +101,7 @@ img {
     gap: 2rem;
     border: black 2px solid;
     border-radius: 1rem;
-    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+    box-shadow: 6px 6px 6px;
   }
 }
 @media (min-width: 992px) {
@@ -113,7 +116,7 @@ img {
     gap: 2rem;
     border: black 2px solid;
     border-radius: 1rem;
-    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+    box-shadow: 6px 6px 6px;
   }
 }
 
@@ -127,7 +130,11 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   border: black 1px solid;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.185);
+  box-shadow: 6px 6px 6px;
+}
+.section-ganado div:hover {
+  transition: 1.2s;
+  transform: scale(1.1);
 }
 
 .section-ganado h3 {
@@ -159,14 +166,14 @@ img {
 .section-ganado img {
   max-width: 100%;
   border-radius: 0.5rem;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
+  box-shadow: 6px 6px 6px;
   border: black 2px solid;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-ganado img {
     max-width: 100%;
     border-radius: 0.5rem;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
+    box-shadow: 6px 6px 6px;
     border: black 2px solid;
   }
 }
@@ -174,7 +181,7 @@ img {
   .section-ganado img {
     max-width: 100%;
     border-radius: 0.5rem;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.397);
+    box-shadow: 6px 6px 6px;
     border: black 2px solid;
   }
 }
@@ -224,7 +231,7 @@ img {
   background-color: #8eb98e;
   border: black 2px solid;
   border-radius: 0.5rem;
-  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.349);
+  box-shadow: 6px 6px 6px;
 }
 @media (min-width: 992px) {
   .section-cuidados {
@@ -240,7 +247,7 @@ img {
   padding: 0.2rem;
   border: black 1px solid;
   border-radius: 0.5rem;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.37);
+  box-shadow: 6px 6px 6px;
 }
 
 .section-cuidados p {
@@ -294,10 +301,14 @@ img {
   max-width: 100%;
   width: 20%;
 }
+.img-size-mercado:hover {
+  transition-duration: 1.5s;
+  transform: scale(1.5);
+}
 
 /*TAMAÑO IMAGENES FOOTER*/
 .img-size-footer {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 @media (min-width: 992px) {
@@ -471,12 +482,19 @@ img {
 }
 
 /*------------------ESTILO PAGINA VALORES----------------------*/
+.bg-valores {
+  background: linear-gradient(to bottom right, rgba(173, 159, 159, 0.616) 30%, #d76d66);
+  padding: 1px 0px 5px 0px;
+}
+
 .titulo-valores {
   margin-bottom: 3rem;
-  border: rgb(153, 78, 34) 3px solid;
+  border: rgb(173, 81, 65) 3px solid;
   border-radius: 1rem;
-  background-color: beige;
+  background-color: rgb(241, 188, 167);
   width: 20rem;
+  text-shadow: 3px 3px 5px;
+  box-shadow: 6px 6px 6px;
 }
 
 .titulo-valores h1 {
@@ -487,13 +505,20 @@ img {
 .section-valores div {
   border: rgb(153, 78, 34) 3px solid;
   border-radius: 1rem;
-  background-color: beige;
+  background-color: rgb(241, 188, 167);
   margin: 2px;
+  box-shadow: 6px 6px 6px;
+}
+.section-valores div:hover {
+  transition: 2s;
+  transform: scale(1.1);
 }
 
 .section-valores h2 {
   font-size: 1.4rem;
   font-family: "fredoka", sans-serif;
+  margin: 2rem;
+  text-shadow: 3px 3px 5px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-valores h2 {

@@ -13,7 +13,7 @@
 
 .style-productos h1 {
     font-size: 3rem;
-    font-family: "fredoka", sans-serif;
+    font-family: $tipografia-fredoka;
     color: #dbd691;
     background-color: #14141462;
     border-radius: 2rem;
@@ -31,7 +31,7 @@
     color: #141414;
     background-color: #977272bd;
     border-radius: 2rem;
-    font-family: "fredoka", sans-serif;
+    font-family: $tipografia-fredoka;
     font-weight: 600;
     text-align: center;
     @include desktop() {

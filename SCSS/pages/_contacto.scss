@@ -5,7 +5,7 @@
 }
 
 .style-contacto h1 {
-    font-family: "fredoka", sans-serif;
+    font-family: $tipografia-fredoka;
     color: #dbd691;
     background-color: #14141462;
     border-radius: 0.4rem;
@@ -13,7 +13,7 @@
 
 .style-contacto p {
     font-size: 1.5rem;
-    font-family: "fredoka", sans-serif;
+    font-family: $tipografia-fredoka;
     color: #dbd691;
     background-color: #14141462;
     border-radius: 0.4rem;

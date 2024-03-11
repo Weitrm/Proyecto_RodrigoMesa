@@ -28,12 +28,16 @@
 .img-size-mercado {
     max-width: 100%;
     width: 20%;
+    &:hover {
+        transition-duration: 1.5s;
+        transform: scale(1.5);
+    }
 }
 
 /*TAMAÑO IMAGENES FOOTER*/
 
 .img-size-footer {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 

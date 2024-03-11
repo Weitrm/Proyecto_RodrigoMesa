@@ -1,11 +1,18 @@
 /*------------------ESTILO PAGINA VALORES----------------------*/
 
+.bg-valores {
+    background: linear-gradient(to bottom right, rgba(173, 159, 159, 0.616) 30%, $bg-rojoclaro);
+    padding: 1px 0px 5px 0px;
+}
+
 .titulo-valores {
     margin-bottom: 3rem;
-    border: rgb(153, 78, 34) 3px solid;
+    border: rgb(173, 81, 65) 3px solid;
     border-radius: 1rem;
-    background-color: beige;
+    background-color: rgb(241, 188, 167);
     width: 20rem;
+    text-shadow: 3px 3px 5px;
+    box-shadow: $box-shadow;
 }
 
 .titulo-valores h1 {
@@ -16,13 +23,20 @@
 .section-valores div {
     border: rgb(153, 78, 34) 3px solid;
     border-radius: 1rem;
-    background-color: beige;
+    background-color: rgb(241, 188, 167);
     margin: 2px;
+    box-shadow: $box-shadow;
+    &:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
 }
 
 .section-valores h2 {
     font-size: 1.4rem;
-    font-family: "fredoka", sans-serif;
+    font-family: $tipografia-fredoka;
+    margin: 2rem;
+    text-shadow: 3px 3px 5px;
     @include tablet () {
         font-size: 2rem;
     }
@@ -33,7 +47,7 @@
 }
 .section-valores p {
     font-size: 1rem;
-    font-family: "fredoka", sans-serif;
+    font-family: $tipografia-fredoka;
     padding: 1rem;
     @include tablet () {
         font-size: 1.2rem;
