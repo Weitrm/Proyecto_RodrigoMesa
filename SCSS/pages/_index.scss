@@ -38,30 +38,35 @@
 
 
 
-@media (min-width: 992px) {
     
-    .fs-lg-2 {
-        font-size: 1.5rem;
-      }
+.fs-lg-2 {
+    @include desktop() {
+    font-size: 1.5rem;
+    }
+}
 
     /*CAROUSEL Y PARRAFO DE SECCION PRINCIPAL */
-    .section-p-carousel {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 100%;
-        gap: 1rem;
+.section-p-carousel {
+    @include desktop() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    gap: 1rem;
+    }    
+}
+.section-p-carousel div {
+    @include desktop() {
+    width: 100%;
     }
-
-    .section-p-carousel div {
-        width: 100%;
-    }
+}
 
 
     /*TAMAÑOS IMAGENES*/
 
-    .img-size-10 {
-        max-width: 100%;
-        width: 10%;
+.img-size-10 {
+    @include desktop() {
+    max-width: 100%;
+    width: 10%;
     }
 }

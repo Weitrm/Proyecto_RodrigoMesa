@@ -38,6 +38,7 @@ img {
 }
 
 /* Media querie TABLET*/
+/* Media querie DESKTOP */
 .bg-img-contacto {
   background-image: url(../img/vaca-pastando.avif);
   background-size: cover;
@@ -260,11 +261,11 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /*-----------------Texto sección cuidados ------------------*/
   .text-tablet {
     display: block;
   }
 }
+
 /*ESTILOS*/
 .estilo-lista {
   font-size: 1.2rem;
@@ -303,7 +304,10 @@ img {
   .fs-lg-2 {
     font-size: 1.5rem;
   }
-  /*CAROUSEL Y PARRAFO DE SECCION PRINCIPAL */
+}
+
+/*CAROUSEL Y PARRAFO DE SECCION PRINCIPAL */
+@media (min-width: 992px) {
   .section-p-carousel {
     display: flex;
     justify-content: space-between;
@@ -311,15 +315,22 @@ img {
     max-width: 100%;
     gap: 1rem;
   }
+}
+
+@media (min-width: 992px) {
   .section-p-carousel div {
     width: 100%;
   }
-  /*TAMAÑOS IMAGENES*/
+}
+
+/*TAMAÑOS IMAGENES*/
+@media (min-width: 992px) {
   .img-size-10 {
     max-width: 100%;
     width: 10%;
   }
 }
+
 .bg-img-productos {
   background-image: url(../img/background-productos.jpg);
   background-size: cover;
@@ -341,6 +352,15 @@ img {
   border-radius: 2rem;
   overflow: hidden;
 }
+@media (min-width: 992px) {
+  .style-productos h1 {
+    font-size: 4rem;
+    color: #dbd691;
+    background-color: rgba(20, 20, 20, 0.3843137255);
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+}
 
 .style-productos p {
   color: #141414;
@@ -349,6 +369,16 @@ img {
   font-family: "fredoka", sans-serif;
   font-weight: 600;
   text-align: center;
+}
+@media (min-width: 992px) {
+  .style-productos p {
+    color: #141414;
+    font-size: 1.8rem;
+    background-color: rgba(151, 114, 114, 0.7411764706);
+    border-radius: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
 }
 
 /*Subtitulo cards*/
@@ -388,13 +418,23 @@ img {
   max-width: 100%;
   align-items: center;
 }
+@media (min-width: 992px) {
+  .card-size {
+    max-width: 100%;
+    width: 20%;
+  }
+}
 
 .card-size img {
   min-width: 100%;
 }
+@media (min-width: 992px) {
+  .card-size img {
+    width: 100%;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /*TAMAÑO MANUAL DE CORTES EN SECCION PRODUCTOS*/
   .cortes {
     max-width: 100%;
     display: flex;
@@ -402,60 +442,45 @@ img {
     margin: 1rem 0 2rem 0;
     gap: 1rem;
   }
+}
+@media (min-width: 992px) {
+  .cortes {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
   .size-cortes {
     max-width: 50%;
   }
 }
 @media (min-width: 992px) {
-  .fs-lg-2 {
-    font-size: 1.5rem;
-  }
-  /*---------ESTILOS SECCION PRODUCTOS------*/
-  .style-productos p {
-    color: #141414;
-    font-size: 1.8rem;
-    background-color: rgba(151, 114, 114, 0.7411764706);
-    border-radius: 2rem;
-    font-weight: 600;
-    text-align: center;
-  }
-  .style-productos h1 {
-    font-size: 4rem;
-    color: #dbd691;
-    background-color: rgba(20, 20, 20, 0.3843137255);
-    border-radius: 2rem;
-    overflow: hidden;
-  }
-  /*TAMAÑOS CARDS*/
-  .card-size {
-    max-width: 100%;
-    width: 20%;
-  }
-  .card-size img {
-    width: 100%;
-  }
-  /*TAMAÑO MANUAL DE CORTES EN SECCION PRODUCTOS*/
-  .cortes {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0 2rem 0;
-    gap: 1rem;
-  }
   .size-cortes {
     max-width: 50%;
   }
 }
+
+@media (min-width: 992px) {
+  .fs-lg-2 {
+    font-size: 1.5rem;
+  }
+}
+
 /*------------------ESTILO PAGINA VALORES----------------------*/
 .titulo-valores {
   margin-bottom: 3rem;
   border: rgb(153, 78, 34) 3px solid;
   border-radius: 1rem;
   background-color: beige;
+  width: 20rem;
 }
 
 .titulo-valores h1 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 /*SECTION VALORES*/
@@ -467,20 +492,56 @@ img {
 }
 
 .section-valores h2 {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   font-family: "fredoka", sans-serif;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-valores h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .section-valores h2 {
+    font-size: 2rem;
+  }
 }
 
 .section-valores p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "fredoka", sans-serif;
   padding: 1rem;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-valores p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 992px) {
+  .section-valores p {
+    font-size: 1.5rem;
+  }
 }
 
 /*ARTICLE VALORES*/
 .article-valores {
   margin-top: 2rem;
   text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .article-valores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .article-valores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    text-align: center;
+  }
 }
 
 .article-valores div {
@@ -496,25 +557,6 @@ img {
 
 .article-valores h3 {
   margin-top: 1rem;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /*------ESTILOS PAGINA VALORES------*/
-  .article-valores {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    text-align: center;
-  }
-}
-@media (min-width: 992px) {
-  /*------ESTILOS PAGINA VALORES------*/
-  .article-valores {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    text-align: center;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

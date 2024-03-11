@@ -12,6 +12,8 @@ $bg-verde: #54a654;
 
 $bg-verdeclaro: #8eb98e;
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -61,6 +63,7 @@ img {
     }
 } 
 
+/* Media querie DESKTOP */
 
 @mixin desktop {
     @media (min-width: 992px) {

@@ -170,10 +170,8 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-
-    /*-----------------Texto sección cuidados ------------------*/
-    .text-tablet {
+.text-tablet {
+     @include tablet() {
         display: block;
     }
 }
